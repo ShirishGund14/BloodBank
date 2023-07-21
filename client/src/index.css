@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300;400;500;600&family=Play:wght@700&family=Poppins:wght@300;400&family=Saira+Semi+Condensed:wght@300&family=Sriracha&family=Titillium+Web:wght@300&family=Ubuntu:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Ubuntu', sans-serif !important;
+  font-size: large;
+  padding: 0;
+  margin: 0;
+}
+
+/* overriding antd button styles */
+button{
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  height: 40px !important;
+}
+
+input,textarea,select{
+  min-height: 40px !important;
+  border: 1px solid gray !important;
+  border-radius: 2px !important;
+  width: 100% !important;
+}
+
+input:focus, textarea:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ant-form-item{
+  margin-bottom: 0 !important;
+}
+
+a:hover{
+  color:#526D82 !important ;
+}
+
+table{
+  border: 2px solid gray !important;
+  border-radius: 10px !important;
+}
